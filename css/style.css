@@ -1,0 +1,132 @@
+* {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+body {
+  background-image: url(https://images.piclumen.com/normal/20250622/21/19da87a2b1264136a6f35df09fa49a4d.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 930px;
+  width: 100wh;
+}
+/* !this is the header */
+header {
+  position: sticky;
+  background: linear-gradient(40deg, #0e1b2c, #0e1b2cc9);
+  .navbar {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 2%;
+
+    .navbar-brand {
+      font-size: larger;
+      font-weight: 600;
+      color: white;
+    }
+    .navbar-nav {
+      margin-left: 2%;
+      padding: 2%;
+      a {
+        color: white;
+      }
+    }
+    .form-control {
+      border-radius: 40px;
+      background-color: #0e1b2c73;
+      padding-left: 5%;
+      color: white;
+    }
+    .form-control::placeholder {
+      color: white;
+    }
+    .input-group-text {
+      border-radius: 40px;
+      padding: 3% 5%;
+      background-color: #0e1b2c73;
+      color: white;
+      i {
+        color: white;
+        margin-right: 3px;
+      }
+    }
+  }
+}
+
+/* !this is the home section */
+#home_section {
+  .container-fluid {
+    img {
+      height: 85vh;
+
+      margin-left: 20%;
+
+      position: sticky;
+      padding: 3%;
+      border-radius: 70px;
+    }
+    #left_col {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: transparent;
+      text-align: center;
+      margin-top: 10%;
+      position: sticky;
+    }
+    .card-body {
+      position: sticky;
+
+      background-color: #0a2549fb;
+      box-shadow: 2px 2px 5px;
+      z-index: 1;
+      border-radius: 10px;
+      padding: 40px;
+
+      h4 {
+        font-size: xx-large;
+        margin-bottom: 5%;
+        color: rgb(209, 175, 88);
+      }
+      .para {
+        color: white;
+      }
+      .row_icons {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        i {
+          padding: 5px;
+        }
+      }
+      #numbers {
+        color: rgb(209, 175, 88);
+        padding: 2%;
+        p {
+          font-size: x-large;
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-image: url(https://images.piclumen.com/normal/20250622/21/19da87a2b1264136a6f35df09fa49a4d.webp) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+  }
+  .card-body {
+    position: sticky;
+    top: 100px;
+    background-color: #0a254956 !important;
+    box-shadow: 2px 2px 5px;
+    z-index: 1;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 20%;
+  }
+}

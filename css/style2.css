@@ -1,0 +1,67 @@
+* {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+body {
+  background-image: url(https://i.pinimg.com/736x/00/3e/3d/003e3da176b8e250deaa589e87a872ce.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* !this is the product section */
+#product_section {
+  .container {
+    padding: 2%;
+    .row {
+      padding: 2%;
+      .card {
+        box-shadow: 2px 2px 5px;
+        height: 100%;
+        img {
+          height: 60%;
+        }
+        .card-body {
+          background: linear-gradient(to bottom, #44412a00, rgb(209, 175, 88));
+          .btn {
+            background-color: rgb(163, 88, 35);
+            border: gold;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* !this is the footer */
+footer {
+  /* background-color: #000000; */
+  padding: 2%;
+  .container {
+    .head3 {
+      display: flex;
+      justify-content: center;
+      padding: 1%;
+      color: rgb(209, 175, 88);
+    }
+    .row {
+      gap: 2%;
+      .col {
+        z-index: 1;
+        padding: 1%;
+        background: linear-gradient(to top, rgb(209, 175, 88), white);
+        border-radius: 7px;
+        p {
+          display: flex;
+          justify-content: center;
+          text-align: center;
+          i {
+            color: rgb(209, 175, 88);
+          }
+        }
+      }
+    }
+  }
+}
